@@ -36,11 +36,13 @@ nav a {
 
 section {
     margin: 20px;
+    color: #FFCC66;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    position: auto;
+    background-color: black;
+    color:white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
