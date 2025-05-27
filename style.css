@@ -46,6 +46,12 @@ section {
     color: #FFCC66;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
 
 footer {
     margin-top:auto;
