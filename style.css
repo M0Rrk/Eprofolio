@@ -5,6 +5,13 @@ body {
     background: url(coolImage2.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    height:100%;
 }
 
 header {
@@ -15,7 +22,7 @@ header {
 }
 
 nav {
-    background-color: orange;
+    background-color: black;
 }
 
 nav ul {
@@ -41,7 +48,7 @@ section {
 
 
 footer {
-    position: auto;
+    margin-top:auto;
     background-color: black;
     color:white;
     text-align: center;
