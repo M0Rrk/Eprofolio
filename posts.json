@@ -1,12 +1,12 @@
 [
   {
-    "title": "Welcome to My Blog",
-    "date": "2025-07-20",
-    "content": "This is the first post on my blog!"
+    "title": "How i made my theme toggle/darkmode",
+    "date": "2025-07-22",
+    "content": "In this post, I will explain how I implemented the theme toggle feature on my website. \n It allows users to switch between light and dark modes seamlessly. When i first implemented it i put it in the header section'<header>'creating it was simple for the ost part, i made a button then searched up on youtube how to make a js file that does it.But in doing so the code on youtube could work with mine so after a few hours i made it work and made it through the file theme-toggle which can be seen on my github!\n but then tragedy struck, working on the header&footer htmls files i realized that the button did not work due to the fact that i had to change the id of the button in the header file, so i had to change the id in the js file as well. But to no evail. after searching on the web what might be the issue i figured out it would be much easier if i deleted theme-toggle.js and put the code into headerfooter.js. this way the button function loads at the same time as header and it makes it much easier then doing a load callback until the theme-toggle loads in and makes it easier."
   },
   {
-    "title": "Another Post",
-    "date": "2025-07-21",
-    "content": "Heres some more content for the blog. Stay tuned for more updates!"
+    "title": "how i made my blog post",
+    "date": "2025-07-22",
+    "content": "After I made my website, I had blog section to share my thoughts and experiences. I started by creating a new html; `blog.html`.I made the blog section the same as all my other pages in style and just implemented the div classes with no issue.I then created a JSON file named `posts.json` to store my blog posts with my title,date and content marks.although json is fast and good the only issue came to writing in the json file as json does not allow you do break between line so its a cleaner look instead of one long line. but it was easy to implement to my blog without modifying the HTML structure.To display the posts dynamically I wrote a JavaScript function that fetches the `posts.json` file and uploading to the .flex-container paragragh section of my page. This way, I can manage my blog and post freely."
   }
 ]
