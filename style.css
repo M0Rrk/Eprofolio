@@ -1,24 +1,45 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background: url(background.gif);
-    background-repeat: no-repeat;
-    background-size: 1920px;
-    min-height: 100%; 
-    display: flex;
-    flex-direction: column;
+    background:var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    padding: 2rem;
 }
 
-html{
-    height:100%;
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --header-bg: #f8f9fa;
+  --footer-bg: #f8f9fa;
+  --primary-color: green;
+  --secondary-color: #6c757d;
 }
 
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f8f9fa;
+  --header-bg: #1a1a1a;
+  --footer-bg: #1a1a1a;
+  --primary-color: #00ff00;
+  --secondary-color: #5a6268;
+}
+
+button.theme-icon {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
 header {
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-color);
+
 }
 
 nav {
@@ -60,12 +81,12 @@ section {
 
 }
 div.gallery{
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
 
 }
 
 div.gallery:hover{
-    border: 1px solid #777
+    border: 1px solid #777;
 }
 
 div.gallery img{
@@ -78,7 +99,7 @@ div.desc{
 
 }
 *{
-    box-shadow: border-box;
+    box-sizing: border-box;
 }
 
 .responsive{
