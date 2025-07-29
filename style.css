@@ -33,7 +33,7 @@ button.theme-icon {
   background-color: var(--primary-color);
   border-radius: 5px;
 }
-header {
+header.header {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -130,9 +130,11 @@ div.desc{
 
 
 footer {
-    margin-top:auto;
-    background-color: black;
-    color:white;
-    text-align: center;
-    padding: 20px;
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:(--footer-bg);
+   color: (--text-color);
+   text-align: center;
 }
