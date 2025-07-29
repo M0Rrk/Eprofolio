@@ -134,7 +134,7 @@ position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color:(--footer-bg);
-   color: (--text-color);
+   background-color:var(--footer-bg);
+   color: var(--text-color);
    text-align: center;
 }
